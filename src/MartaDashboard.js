@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import './MartaDashboard.css';
 
 const getMartaData = (cb) => {
     fetch('http://developer.itsmarta.com/RealtimeTrain/RestServiceNextTrain/GetRealtimeArrivals?apikey=2c514350-0c26-47dd-b872-7936af81c8e1', {
@@ -57,7 +57,7 @@ class MartaDashboard extends Component {
 
     return (
       <div>
-        <p>Marta: It's super cool</p>
+        <p className="track_train">TRACK YOUR TRAIN</p>
         <div>
           {martaOutput}
         </div>
