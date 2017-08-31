@@ -14,7 +14,6 @@ class App extends Component {
           <h2>MARTA</h2>
         </div>
         <MartaDashboard />
-
         {/* This renders the dropdown. */}
         <DropDown />
       </div>
@@ -23,3 +22,5 @@ class App extends Component {
 }
 
 export default App;
+
+

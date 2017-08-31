@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-// import MartaDashboard from './MartaDashboard.js';
 import './DropDown.css';
+import MartaDashboard from './MartaDashboard.js';
+
 
 class DropDown extends Component {
     constructor(props) {
@@ -14,7 +15,7 @@ class DropDown extends Component {
         this.setState({value: event.target.value});
     }
     handleSubmit(event) {
-        alert('Your choice' + this.state.value);
+        alert('Your choice was ' + this.state.value);
         event.preventDefault();
     }
     render() {
