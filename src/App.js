@@ -14,7 +14,8 @@ class App extends Component {
           <h2>MARTA</h2>
         </div>
         <MartaDashboard />
-        {/* Need to define this in DropDown.js before I bring it in. */}
+
+        {/* This renders the dropdown. */}
         <DropDown />
       </div>
     );
