@@ -42,8 +42,8 @@ class MartaDashboard extends Component {
     let martaOutput = this.state.martaData.map((datum) => {
       // debugger;
       return (<div>
-        <p>{datum.DESTINATION}</p>
-        {/* <p>{datum.DIRECTION}</p>
+        {/* <p>{datum.DESTINATION}</p>
+        <p>{datum.DIRECTION}</p>
         <p>{datum.EVENT_TIME}</p>
         <p>{datum.LINE}</p>
         <p>{datum.NEXT_ARR}</p>
@@ -57,7 +57,7 @@ class MartaDashboard extends Component {
 
     return (
       <div>
-        <p>Marta: It's smarta (but not really)</p>
+        <p>Marta: It's super cool</p>
         <div>
           {martaOutput}
         </div>
